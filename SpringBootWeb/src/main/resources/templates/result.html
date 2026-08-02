@@ -1,0 +1,20 @@
+<!--<%@page language="java" %>-->
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" type="text/css" href="../../webapp/style.css">
+</head>
+<body>
+<h2>
+<!--    Result is : ${result}-->
+<!--    <%= session.getAttribute("result") %>  -->
+
+    Hey there,
+
+    <p th:text="${alien}">${alien}</p>
+
+    <p th:text="'Welcome to ' + ${course} + ' course.'">Greeting</p>
+
+</h2>
+</body>
+</html>
